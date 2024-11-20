@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>About Us</title>
+    <title>Live Location</title>
 </head>
 <body>
     <header>
-        <h1>About Us</h1>
-        <p>Learn more about our team and mission.</p>
+        <h1>Device Live Location</h1>
     </header>
     <nav>
         <a href="index.html" id="home-link">Home</a>
@@ -19,9 +18,11 @@
         <a href="location.html" id="location-link">Location</a>
     </nav>
     <main>
-        <h2>Our Story</h2>
-        <p>We are dedicated to making a difference in the world.</p>
+        <h2>Your Current Location</h2>
+        <div id="map" style="width: 100%; height: 500px;"></div>
     </main>
     <script src="script.js"></script>
+    <!-- Google Maps API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTs1L-W4rp_szEROPQFIncRsLBRBdLsxk&callback=initMap" async defer></script>
 </body>
 </html>
